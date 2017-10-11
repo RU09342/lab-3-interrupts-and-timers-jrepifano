@@ -3,6 +3,8 @@ My implementation of the button based delay was a little half assed. Instead of 
 The timer is set to continous mode, when the button is pressed down it counts how many times it overflows.
 When the button is released it toggles the LEDs for the amount of overflows that occured while the button was pressed down.
 
+I worked with Damon Boorstein and Brenden Nugent on this one, I had issues getting the clock frequency correct with dividing and all that.
+
 Below is the commented code for the G2553:
 
 #include <msp430.h>
